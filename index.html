@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<div class="header-style">
+		<h1 id="title">
+			PheonixTechMarket Survey Form
+		</h1>
+		<p id="description">
+			We are ever greatful for your time.
+		</p>
+	</div>
+
+	<form action="freecodecamp.org" id="survey-form">
+
+		<label id="name-label">Name</label> <br>
+		<input  id="name" placeholder="Enter your name"type="text" name="name" required="" />
+
+		<br/>
+		<label id="email-label">Email</label> <br>
+		<input id="email" placeholder="Enter your email"type="email" name="email" required="" />
+
+		<br/>
+		<label id="age-label">Age(optional)</label><br>
+		<input placeholder="Please Input your age" type="number" min="10" max="99" name="age" required />
+
+		<br/>
+
+				<label id="number-label">
+			Phone Number
+				</label> <br>
+		<input id="number" placeholder="Please insert contact" type="number" name="number-label" min="11" max="13" />
+
+
+		
+
+		<br/>
+
+			<p>Which of our services do you love the most?</p>
+		<select id="dropdown" name="services" required>
+
+			<option disabled="" selected="" value="">Choose an option</option>
+			<option>
+				Home Delivery
+			</option>
+				
+			<option>
+				Return Policiy
+			</option>
+				
+			<option>
+				Product Warranty
+			</option>
+
+			<option>
+				Black Friday
+			</option>
+		</select>
+
+		<br/>
+
+		
+
+		<p>Would you recommend Pheonixtechmarket to a friend ?</p>
+
+		
+
+			<label>
+				<input class="input-radio" type="radio" name="user-recommend" value="Definitely">Definitely
+			</label>
+			<br />
+			<label>
+				<input class="input-radio" type="radio" name="user-recommend" value="Maybe">Maybe
+			</label>
+			<br />
+			<label>
+				<input class="input-radio" type="radio" name="user-recommend" value="not-sure">Not sure
+			</label>
+
+			<p>What would you like us to improve in our services ?</p>
+
+
+			<label>
+				<input class="input-checkbox" type="checkbox" name="prefer" value="services">Delivery Time
+			</label>
+			<br />
+
+			<label>
+				<input class="input-checkbox" type="checkbox" name="prefer"  value="services">Packaging of Products
+			</label>
+			<br />
+
+			<label>
+				<input class="input-checkbox" type="checkbox" name="prefer"  value="services">Shipping Method Options
+			</label>
+			<br />
+
+			<label>
+				<input class="input-checkbox" type="checkbox" name="prefer"  value="services">Payment Method Options
+			</label>
+			<br />
+
+			<label>
+				<input class="input-checkbox" type="checkbox" name="prefer"  value="services">Return Policy
+			</label>
+
+			<br />
+			<br />
+
+			<p>Any comments or Suggestions, please let us know below</p>
+
+			<textarea id="textarea" name="textarea" placeholder="Write something..."></textarea>
+
+			<br />
+			<br />
+			<br />
+
+		
+
+		<button type="submit" value="Submit" id="submit">Submit</button>
+
+	</form>
+
+	<br />
+
+<footer id="footer">
+
+	<p>&copy;Copyright, Martinium Developers 2021</p>
+	
+</footer>
+
+</body>
+</html>
